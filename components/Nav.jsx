@@ -6,8 +6,8 @@ const Nav = () => {
 
   return (
     <nav className="navbar is-black" role="navigation" aria-label="main navigation">
-    <div className="navbar-brand">
-      <a className="navbar-item" href="https://bulma.io">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
       </a>
 
@@ -28,29 +28,109 @@ const Nav = () => {
           Projects
         </a>
 
-        <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link">
-            More
-          </a>
-
-          <div className="navbar-dropdown">
-            <a className="navbar-item">
-              About
-            </a>
-            <a className="navbar-item">
-              Jobs
-            </a>
-            <hr className="navbar-divider"/>
-            <a className="navbar-item">
-              Contact
-            </a>
-          </div>
-        </div>
+        <a className="navbar-item">
+          Contact
+        </a>
       </div>
+      <div className="navbar-end">
 
-    </div>
+        <a href="https://www.linkedin.com/in/lgeertsen/" target="_blank" className="icon navbar-item">
+        <i className="lab la-linkedin"></i>
+      </a>
+      <a href="https://github.com/lgeertsen" target="_blank" className="icon navbar-item">
+      <i className="lab la-github "></i>
+    </a>
+  </div>
 
-  <style jsx>{`
+
+</div>
+
+
+<style jsx>{`
+  nav {
+    padding: 0 40px;
+  }
+
+  .icon {
+    height: 100%;
+    margin: 0 15px;
+    font-size: 32px;
+    color: #dfa25f;
+    transition: 0.2s;
+  }
+
+  .icon:hover {
+    color: #d99244;
+  }
+
+  #navigation-menu {
+    position: relative;
+    left: auto;
+    top: 0%;
+    right: 400px;
+    bottom: auto;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin-left: 90px;
+    padding: 30px 180px 30px 90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-right: 1px solid #ededed;
+    background-color: #fff;
+    transition: 0.5s all ease;
+  }
+
+  #navigation-menu.open {
+    right: 0%;
+  }
+
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s all ease;
+  }
+
+  .nav-link:hover {
+    color: #555;
+  }
+
+  .nav-text {
+    position: relative;
+    z-index: 3;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+  }
+
+  .nav-line {
+    position: absolute;
+    z-index: 2;
+    bottom: 12px;
+    height: 12px;
+    width: 0%;
+    background-color: #dfa25f;
+    transition: 0.3s all ease;
+  }
+
+  .nav-link:hover .nav-line {
+    width: 110%;
+  }
 
   `}</style>
 </nav>

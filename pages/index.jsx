@@ -29,7 +29,7 @@ const Home = () => {
 
       <section className="full-page" id="hello">
         <div className="full-page w-container wide-container">
-          <div className="half-p">I'm a last year VFX &amp; Game Programming student at <a href="https://artfx.school/en/technical-director-visual-effetcs-video-games-programming/" target="_blank" className="stylish-link">ArtFx</a> with a <em>passion for coding &amp; sex</em></div>
+          <div className="half-p">I'm a last year VFX &amp; Game Programming student at <a href="https://artfx.school/en/technical-director-visual-effetcs-video-games-programming/" target="_blank" className="stylish-link">ArtFx</a> with a <em>passion for coding &amp; travel</em></div>
         </div>
       </section>
 
