@@ -14,7 +14,7 @@ const Home = () => {
   return (
   <React.Fragment>
     <Head>
-      <title>Lee Geertsen</title>
+      <title>Julien Rippstein</title>
       <link rel="icon" href="/favicon.png" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css"/>
       {/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"/> */}
@@ -22,16 +22,14 @@ const Home = () => {
       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300,400,700%7CLato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7CFjalla+One:regular%7CAverage:regular"/>
     </Head>
 
-    <Nav/>
-
     <div className="page-wrapper">
       <section className="full-section home-section" id="home"></section>
 
-      <h1 id="top-title"><span className="tuesday-night">Lee <span className="offset">Geertsen</span></span><br/>Pipeline TD</h1>
+      <h1 id="top-title"><span className="tuesday-night">Julien <span className="offset">Rippstein</span></span><br/>Virtual reality developper</h1>
 
       <section className="full-page" id="hello">
         <div className="full-page w-container wide-container">
-          <div className="half-p">I'm a last year VFX &amp; Game Programming student at <a href="https://artfx.school/en/technical-director-visual-effetcs-video-games-programming/" target="_blank" className="stylish-link">ArtFx</a> with a <em>passion for coding &amp; cocktails</em></div>
+          <div className="half-p">I'm a last year VFX &amp; Game Programming student at <a href="https://artfx.school/en/technical-director-visual-effetcs-video-games-programming/" target="_blank" className="stylish-link">ArtFx</a> with a <em>passion for coding &amp; sex</em></div>
         </div>
       </section>
 
@@ -66,6 +64,7 @@ const Home = () => {
         <section className="" id="contact-section">
           <div className="container" id="contact-container">
             <div className="cocktail-card">
+
               <div className="post-card-content">
                 <h2>My Favorite Cocktail</h2>
                 <div className="divider divider-white"></div>
@@ -83,6 +82,7 @@ const Home = () => {
                     <div className="col-8 ingredient text-left">Sweet vermouth</div>
                   </div>
                 </div>
+
               </div>
               <div className="frame"></div>
             </div>
@@ -110,8 +110,7 @@ const Home = () => {
         overflow: hidden;
         height: 67%;
         background-color: rgb(233, 196, 186);
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("/denise-jans-ScQXxiIZ0Qo-unsplash.jpg");
-        // background-image: linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("/patrick-ryan-703015-unsplash.jpg");
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("/maxresdefault.jpg");
         background-position: 50% 100%;
         // background-position: 50% 0px;
         background-size: cover;
@@ -126,7 +125,7 @@ const Home = () => {
         display: inline-block;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-family: 'Fjalla One', sans-serif;
+        font-family: 'Gameplay', 'Fjalla One', sans-serif;
         font-size: 120px;
         line-height: 150px;
         font-weight: 700;
@@ -137,7 +136,6 @@ const Home = () => {
       }
 
       .tuesday-night {
-        font-family: 'Tuesday Night', 'Fjalla One', sans-serif;
         text-transform: none;
         font-weight: 400;
         color: #dfa25f;
@@ -160,7 +158,7 @@ const Home = () => {
         flex-direction: column;
         /* border: 10px solid #fff; */
         background-color: #eee;
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://images.unsplash.com/photo-1532264523420-881a47db012d");
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("CTRL_2.jpg");
         // background-image: linear-gradient(180deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url("https://images.unsplash.com/photo-1488229297570-58520851e868");
         background-position: 50% 100%;
         background-size: cover;

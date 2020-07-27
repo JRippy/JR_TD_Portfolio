@@ -13,7 +13,7 @@ const Home = () => {
   return (
   <React.Fragment>
     <Head>
-      <title>Lee Geertsen</title>
+      <title>Julien Rippstein</title>
       <link rel="icon" href="/favicon.png" />
       {/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"/> */}
       <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>

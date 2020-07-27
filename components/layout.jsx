@@ -57,8 +57,8 @@ export default ({ children }) => {
       {/* </footer> */}
       <style jsx global>{`
         @font-face {
-          font-family: "Tuesday Night";
-          src: url("/TuesdayNight/TuesdayNight-Regular.otf");
+          font-family: "Gameplay";
+          src: url("/gameplay/Gameplay.ttf");
         }
 
         html,
@@ -105,7 +105,7 @@ export default ({ children }) => {
         }
 
         .page-wrapper {
-          padding-left: 90px;
+          // padding-left: 90px;
           height: 100%;
         }
 
@@ -211,7 +211,7 @@ export default ({ children }) => {
           background: #dfa25f;
         }
         .tuesday-night {
-          font-family: 'Tuesday Night', 'Fjalla One', sans-serif;
+          font-family: 'Gameplay', 'Fjalla One', sans-serif;
           text-transform: none;
           font-weight: 400;
           color: #dfa25f;

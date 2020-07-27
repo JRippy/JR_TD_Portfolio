@@ -6,7 +6,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>Lee Geertsen</title>
+        <title>Julien Rippstein</title>
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css"/>
         {/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"/> */}
