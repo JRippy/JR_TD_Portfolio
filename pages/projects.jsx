@@ -20,47 +20,136 @@ const Home = () => {
       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300,400,700%7CLato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7CFjalla+One:regular%7CAverage:regular"/>
     </Head>
 
-    <Nav/>
 
     <div className="page-wrapper">
-      <section className="full-section project-header" id="projects"></section>
+      <section className="full-section project-header" id="projects">
 
+      <h1 id="top-title"><span className="tuesday-night">PROJECTS</span></h1>
+</section>
       <section className="main-content">
         <ProjectCard
-          project="Pulsar"
-          description="A modern open source pipeline software for animatoin & VFX"
+          project="JR_HUB_VR"
+          description="Sandbox game with interaction and VR features."
           img="pulsar-graph-editor.png"
           bgImg={false}
           imgFirst={true}
-          technologies={["electron", "nextjs", "nodejs", "socketio", "python", "sass", "houdini", "maya", "nuke"]}
+          technologies={["unity"]}
           links={[
             {
               link: "https://pulsarvfx.com",
               icon: "las la-link"
             },
             {
-              link: "https://github.com/lgeertsen/Pulsar",
+              link: "https://github.com/JRippy/JR_TD_Hub",
               icon: "lab la-github"
             }
           ]}
         />
         <ProjectCard
-          project="Vyewer"
-          description="Tool to review images and sequences with synchronised playback of multiple videos"
+          project="VR Camera Recorder"
+          description="Tool to record animation sequance with a 3d virtual camera."
           img="pulsar-graph-editor.png"
           bgImg={true}
           imgFirst={false}
-          technologies={["electron", "nextjs", "nodejs", "react"]}
+          technologies={["unity"]}
           links={[
             {
-              link: "https://github.com/lgeertsen/Vyewer",
+              link: "https://github.com/JRippy/JR_TD_Hub",
               icon: "lab la-github"
             }
           ]}
         />
         <ProjectCard
-          project="Magnet AR"
-          description="Tool to animate cameras in 3D software (Maya, Houdini, Blender) with the use of AR on a mobile phone"
+          project="Blood Pressure Defender"
+          description="Tower defense in virtual reality."
+          img="pulsar-graph-editor.png"
+          bgImg={false}
+          imgFirst={true}
+          technologies={["unity"]}
+          links={[
+            {
+              link: "https://pulsarvfx.com",
+              icon: "las la-link"
+            },
+            {
+              link: "https://github.com/JRippy/JR_TD_Hub",
+              icon: "lab la-github"
+            }
+          ]}
+        />
+        <ProjectCard
+          project="Launcher Wellapy"
+          description="Secure virtual reality launcher for virtual hypnotherapy"
+          img="wellapy.png"
+          bgImg={true}
+          imgFirst={false}
+          technologies={["UE4", "react", "C++", "Csharp"]}
+          links={[
+            {
+              link: "http://www.wellapyco.com/",
+              icon: "las la-link"
+            }
+          ]}
+        />
+        <ProjectCard
+          project="Bin Saver"
+          description="Virtual reality game developped for the CNRS Grenoble 2020."
+          img="pulsar-graph-editor.png"
+          bgImg={false}
+          imgFirst={true}
+          technologies={["UE4"]}
+          links={[
+            {
+              link: "https://www.grenoblegamelab.com/",
+              icon: "las la-link"
+            }
+          ]}
+        />
+        <ProjectCard
+          project="SpaceSlingShot"
+          description="Virtual reality game developed for SUmmer Jam 2019. VR slingshot with 0G."
+          img="SpaceSlingShot.png"
+          bgImg={true}
+          imgFirst={false}
+          technologies={["UE4"]}
+          links={[
+            {
+              link: "https://jrippy.itch.io/spaceslingshot",
+              icon: "las la-link"
+            }
+          ]}
+        />
+        <ProjectCard
+          project="Ichor"
+          description="Asynchrone virtual reality game. I work on enemy spawner, pathfinding and enemy focus."
+          img="ICHOR_POSTER.jpg"
+          bgImg={false}
+          imgFirst={true}
+          technologies={["UE4"]}
+          links={[
+            {
+              link: "https://artfx.school/projet-fin-etudes/ichor/",
+              icon: "las la-link"
+            }
+          ]}
+        />
+        <ProjectCard
+          project="Space Monkey"
+          description="Space Monkey is an exploration game developed with UE4."
+          img="SpaceMonkey.png"
+          bgImg={true}
+          imgFirst={false}
+          technologies={["UE4"]}
+          links={[
+            {
+              link: "https://tryall.itch.io/space-monkey",
+              icon: "las la-link"
+            }
+          ]}
+        />
+        <ProjectCard
+          project="Heisei"
+          description="Video game developped and projected for Montpellier en Lumière"
           img="pulsar-graph-editor.png"
           bgImg={false}
           imgFirst={true}
@@ -73,19 +162,16 @@ const Home = () => {
           ]}
         />
         <ProjectCard
-          project="Arnold to Clarisse"
-          description="Tool to review images and sequences with synchronised playback of multiple videos"
-          img="pulsar-graph-editor.png"
+          project="OCR Mobile"
+          description="Mobile application using Tesseract to read documents."
+          img="Ocr.jpg"
           bgImg={true}
           imgFirst={false}
-          technologies={["python", "maya", "clarisse"]}
+          technologies={["Android_Studio_icon.svg", "java7"]}
           links={[
-            {
-              link: "https://github.com/lgeertsen/Arnold_to_Clarisse",
-              icon: "lab la-github"
-            }
           ]}
         />
+
       </section>
     </div>
 
@@ -99,7 +185,7 @@ const Home = () => {
         height: 60%;
         background-color: rgb(233, 196, 186);
         // background-image: linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("/denise-jans-ScQXxiIZ0Qo-unsplash.jpg");
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("/octavian-dan-b21Ty33CqVs-unsplash.jpg");
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("/bram-van-oost-c9RxcTVHD_0-unsplash.jpg");
         background-position: 100% 40%;
         // background-position: 50% 0px;
         background-size: cover;

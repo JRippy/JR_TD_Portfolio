@@ -20,24 +20,31 @@ const Nav = () => {
 
     <div id="navbarBasicExample" className="navbar-menu">
       <div className="navbar-start">
-        <a className="navbar-item">
-          Home
-        </a>
 
-        <a className="navbar-item">
-          Projects
-        </a>
+        <Link href="/">
+          <a className="navbar-item">
+            Home
+          </a>
+        </Link>
 
-        <a className="navbar-item">
+        <Link href="/projects">
+          <a className="navbar-item">
+            Projects
+          </a>
+        </Link>
+
+<Link href="/contact">
+        <a  className="navbar-item">
           Contact
         </a>
+      </Link>
       </div>
       <div className="navbar-end">
 
-        <a href="https://www.linkedin.com/in/lgeertsen/" target="_blank" className="icon navbar-item">
+        <a href="https://www.linkedin.com/in/julien-rippstein-5992403b/" target="_blank" className="icon navbar-item">
         <i className="lab la-linkedin"></i>
       </a>
-      <a href="https://github.com/lgeertsen" target="_blank" className="icon navbar-item">
+      <a href="https://github.com/JRippy" target="_blank" className="icon navbar-item">
       <i className="lab la-github "></i>
     </a>
   </div>

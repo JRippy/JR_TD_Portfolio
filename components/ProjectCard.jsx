@@ -63,7 +63,7 @@ const ProjectCard = ({ project, description, img, bgImg, imgFirst, technologies,
 
           .full-section.bg-img {
             background-color: #eee;
-            background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("rene-bohmer-YeUVDKZWSZ4-unsplash.jpg");
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("jesper-aggergaard-38Hg7GMTogo-unsplash.jpg");
             background-position: 50% 100%;
             background-size: cover;
             background-repeat: no-repeat;
