@@ -30,7 +30,7 @@ const Home = () => {
         <ProjectCard
           project="JR_HUB_VR"
           description="Sandbox game with interaction and VR features."
-          img="pulsar-graph-editor.png"
+          img="JR_TD_Hub.png"
           bgImg={false}
           imgFirst={true}
           technologies={["unity"]}
@@ -48,7 +48,7 @@ const Home = () => {
         <ProjectCard
           project="VR Camera Recorder"
           description="Tool to record animation sequance with a 3d virtual camera."
-          img="pulsar-graph-editor.png"
+          img="VR_Recorder.png"
           bgImg={true}
           imgFirst={false}
           technologies={["unity"]}
@@ -62,17 +62,13 @@ const Home = () => {
         <ProjectCard
           project="Blood Pressure Defender"
           description="Tower defense in virtual reality."
-          img="pulsar-graph-editor.png"
+          img="BloodPressureDefender.PNG"
           bgImg={false}
           imgFirst={true}
           technologies={["unity"]}
           links={[
             {
-              link: "https://pulsarvfx.com",
-              icon: "las la-link"
-            },
-            {
-              link: "https://github.com/JRippy/JR_TD_Hub",
+              link: "https://github.com/ArtFXDev/JAM_Oct_2019_BloodPressureDefense.git",
               icon: "lab la-github"
             }
           ]}
@@ -94,7 +90,7 @@ const Home = () => {
         <ProjectCard
           project="Bin Saver"
           description="Virtual reality game developped for the CNRS Grenoble 2020."
-          img="pulsar-graph-editor.png"
+          img="Bin_Saver.PNG"
           bgImg={false}
           imgFirst={true}
           technologies={["UE4"]}
@@ -150,7 +146,7 @@ const Home = () => {
         <ProjectCard
           project="Heisei"
           description="Video game developped and projected for Montpellier en Lumière"
-          img="pulsar-graph-editor.png"
+          img="Heisei.png"
           bgImg={false}
           imgFirst={true}
           technologies={["react-native", "viro-react", "maya", "houdini", "blender"]}

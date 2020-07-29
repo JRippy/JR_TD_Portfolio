@@ -29,7 +29,7 @@ const Home = () => {
 
       <section className="full-page" id="hello">
         <div className="full-page w-container wide-container">
-          <div className="half-p">I'm a last year VFX &amp; Game Programming student at <a href="https://artfx.school/en/technical-director-visual-effetcs-video-games-programming/" target="_blank" className="stylish-link">ArtFx</a> with a <em>passion for coding &amp; travel</em></div>
+          <div className="half-p">I'm a last year VFX &amp; Game Programming student at <a href="https://artfx.school/en/technical-director-visual-effetcs-video-games-programming/" target="_blank" className="stylish-link">ArtFx</a> with a <em>passion for coding &amp; virtual reality.</em></div>
         </div>
       </section>
 
@@ -40,16 +40,16 @@ const Home = () => {
           <div className="main-page-container">
             <div className="main-page-column">
               <h1>Resume</h1>
-              <a href="Resume_GEERTSEN_Lee_Pipeline_TD.pdf" target="__blank" className="projects-image-link">
-                <img src="Resume_img.png"/>
+              <a href="Julien Rippstein CV.pdf" target="__blank" className="projects-image-link">
+                <img src="Resume_img.PNG"/>
               </a>
-              <a href="Resume_GEERTSEN_Lee_Pipeline_TD.pdf" target="__blank" className="projects-btn-container">
+              <a href="Julien Rippstein CV.pdf" target="__blank" className="projects-btn-container">
                 <div className="btn">OPEN RESUME</div>
               </a>
             </div>
             <div className="main-page-column">
               <h1>Projects</h1>
-              <img src="pulsar-graph-editor.png"/>
+              <img src="Julien_3.jpg"/>
               <div className="projects-btn-container">
                 <Link href="projects">
                   <div className="btn">SEE ALL PROJECTS</div>
@@ -66,20 +66,17 @@ const Home = () => {
             <div className="cocktail-card">
 
               <div className="post-card-content">
-                <h2>My Favorite Cocktail</h2>
+                <h2>Favorites Games</h2>
                 <div className="divider divider-white"></div>
                 <div className="container ingredients">
                   <div className="row">
-                    <div className="col-4 measurement text-right">1 oz</div>
-                    <div className="col-8 ingredient text-left">Gin</div>
+                    <div className="col-4 measurement text-right">Half life Alix</div>
                   </div>
                   <div className="row">
-                    <div className="col-4 measurement text-right">1 oz</div>
-                    <div className="col-8 ingredient text-left">Campari</div>
+                    <div className="col-4 measurement text-right">Super Hot</div>
                   </div>
                   <div className="row">
-                    <div className="col-4 measurement text-right">1 oz</div>
-                    <div className="col-8 ingredient text-left">Sweet vermouth</div>
+                    <div className="col-4 measurement text-right">Gorn</div>
                   </div>
                 </div>
 
@@ -91,9 +88,9 @@ const Home = () => {
                 <h2>Contact Information</h2>
                 <div className="divider"></div>
                 <div className="preparation">
-                  <p className="preparation-step">Add all the ingredients into a mixing glass with ice, and stir until well-chilled.</p>
-                  <p className="preparation-step">Strain into a rocks glass filled with large ice cubes.</p>
-                  <p className="preparation-step">Garnish with an orange peel.</p>
+                  <p className="preparation-step">Email : jrippstein@artfx.fr</p>
+                  <p className="preparation-step">Location : Montpellier</p>
+                  <p className="preparation-step">Phone : +33 (0)6 50 50 93 00</p>
                 </div>
               </div>
               <div className="frame frame-grey"></div>
@@ -234,7 +231,7 @@ const Home = () => {
       #contact-section {
         padding-top: 80px;
         padding-bottom: 80px;
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("david-pennington-653277-unsplash.jpg");
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("test-valve-index-e1561828793658.jpg");
         background-position: 0px 0px, 50% 50%;
         background-size: auto, cover;
         background-repeat: repeat, no-repeat;

@@ -33,11 +33,6 @@ const Nav = () => {
           </a>
         </Link>
 
-<Link href="/contact">
-        <a  className="navbar-item">
-          Contact
-        </a>
-      </Link>
       </div>
       <div className="navbar-end">
 
