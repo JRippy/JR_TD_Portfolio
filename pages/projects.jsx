@@ -36,10 +36,6 @@ const Home = () => {
           technologies={["unity"]}
           links={[
             {
-              link: "https://pulsarvfx.com",
-              icon: "las la-link"
-            },
-            {
               link: "https://github.com/JRippy/JR_TD_Hub",
               icon: "lab la-github"
             }
@@ -149,10 +145,14 @@ const Home = () => {
           img="Heisei.png"
           bgImg={false}
           imgFirst={true}
-          technologies={["react-native", "viro-react", "maya", "houdini", "blender"]}
+          technologies={["unity"]}
           links={[
             {
-              link: "https://github.com/lgeertsen/MagnetAR",
+              link: "https://www.rtsfm.com/news/coeur-de-ville-en-lumieres-2018-avec-rts-20849",
+              icon: "las la-link"
+            },
+            {
+              link: "https://github.com/ArtFXDev/Heisei",
               icon: "lab la-github"
             }
           ]}
