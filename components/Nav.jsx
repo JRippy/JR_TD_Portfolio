@@ -6,7 +6,7 @@ const Nav = () => {
 
   return (
     <nav className="navbar is-black" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
+      {/* <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
       </a>
@@ -16,7 +16,7 @@ const Nav = () => {
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
-    </div>
+    </div> */}
 
     <div id="navbarBasicExample" className="navbar-menu">
       <div className="navbar-start">
