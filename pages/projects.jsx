@@ -30,7 +30,7 @@ const Home = () => {
         <ProjectCard
           project="JR_HUB_VR"
           description="Sandbox game with interaction and VR features."
-          img="JR_TD_Hub.png"
+
           bgImg={false}
           imgFirst={true}
           technologies={["unity"]}
@@ -44,7 +44,7 @@ const Home = () => {
         <ProjectCard
           project="VR Camera Recorder"
           description="Tool to record animation sequance with a 3d virtual camera."
-          img="VR_Recorder.png"
+
           bgImg={true}
           imgFirst={false}
           technologies={["unity"]}
@@ -58,7 +58,7 @@ const Home = () => {
         <ProjectCard
           project="Blood Pressure Defender"
           description="Tower defense in virtual reality."
-          img="BloodPressureDefender.png"
+
           bgImg={false}
           imgFirst={true}
           technologies={["unity"]}
@@ -86,7 +86,7 @@ const Home = () => {
         <ProjectCard
           project="Bin Saver"
           description="Virtual reality game developped for the CNRS Grenoble 2020."
-          img="Bin_Saver.png"
+
           bgImg={false}
           imgFirst={true}
           technologies={["UE4"]}
@@ -100,7 +100,7 @@ const Home = () => {
         <ProjectCard
           project="SpaceSlingShot"
           description="Virtual reality game developed for SUmmer Jam 2019. VR slingshot with 0G."
-          img="SpaceSlingShot.png"
+
           bgImg={true}
           imgFirst={false}
           technologies={["UE4"]}
