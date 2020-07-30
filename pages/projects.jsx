@@ -58,7 +58,7 @@ const Home = () => {
         <ProjectCard
           project="Blood Pressure Defender"
           description="Tower defense in virtual reality."
-          img="BloodPressureDefender.PNG"
+          img="BloodPressureDefender.png"
           bgImg={false}
           imgFirst={true}
           technologies={["unity"]}
@@ -86,7 +86,7 @@ const Home = () => {
         <ProjectCard
           project="Bin Saver"
           description="Virtual reality game developped for the CNRS Grenoble 2020."
-          img="Bin_Saver.PNG"
+          img="Bin_Saver.png"
           bgImg={false}
           imgFirst={true}
           technologies={["UE4"]}

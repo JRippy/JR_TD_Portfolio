@@ -41,7 +41,7 @@ const Home = () => {
             <div className="main-page-column">
               <h1>Resume</h1>
               <a href="Julien Rippstein CV.pdf" target="__blank" className="projects-image-link">
-                <img src="Resume_img.PNG"/>
+                <img src="Resume_img.png"/>
               </a>
               <a href="Julien Rippstein CV.pdf" target="__blank" className="projects-btn-container">
                 <div className="btn">OPEN RESUME</div>
