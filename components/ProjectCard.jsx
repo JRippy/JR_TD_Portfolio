@@ -9,7 +9,7 @@ const ProjectCard = ({ project, description, img, bgImg, imgFirst, technologies,
           <div className={bgImg ? "frame" : "frame frame-yellow"}></div>
           : ''
         }
-        <h1 className={bgImg ? "project-title white-text" : "project-title"}>{project}</h1>
+        <h1 className={bgImg ? "project-title white-text" : "project-title"}></h1>
         <div className="project-card">
           <div className="project-card-image">
             <img src={img}/>
@@ -74,7 +74,7 @@ const ProjectCard = ({ project, description, img, bgImg, imgFirst, technologies,
             font-family: 'Tuesday Night', 'Fjalla One', sans-serif;
             font-size: 88px;
             font-weight: 400;
-            margin-top: 130px;
+            margin-top: 80px;
             word-spacing: 40px;
           }
 
